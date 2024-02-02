@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/favicon.png">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <div class="banner-wrap">
+        <!-- everything inside this div is over the banner image -->
+        <div class="overlay"></div>
+        <div class="navbar">
+            <!-- this is the navigation bar -->
+            <img src="./assets/logo.png" alt="Netflix Logo">
+            <a href="https://www.netflix.com/au/login" target="_blank">Sign in</a>
+        </div>
+        <div class="banner-container">
+            <h1 class="card-title">Unlimited movies,Tv shows,and more</h1>
+            <h2 class="card-subtitle">Watch anywhere. Cancel anytime.</h2>
+
+            <form>
+                <!-- this is the form for the login information -->
+                <h3 class="email-form-title">Ready to watch? Enter your email to create or restart your membership.</h3>
+                <div class="get-started-form">
+                    <input type="text" placeholder="Email Address">
+                    <button>GET STARTED ></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- this is the second section with the tv -->
+    <div class="info-container">
+        <!-- div for the written part-->
+        <div class="info">
+            <h1 class="card-title">Enjoy on your TV</h1>
+            <p class="card-subtitle">Watch on Smart Tvs,Playstation,Xbox,Chromecast,Apple TV,Blu-ray players and more.</p>
+        </div>
+        <!-- div for the tv part -->
+        <div class="tv-container">
+            <!-- the tv image in which the video will be imbedded -->
+            <img src="./assets/tv.png" alt="tv-img"> 
+            <!-- video to be played inside the tv -->
+            <video autoplay playsinline muted loop>
+                <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4">
+            </video>
+        </div>
+    </div> 
+    <div class="footer">
+        <ul>
+            <li>FAQ</li>
+            <li>Help Centre</li>
+            <li>Account</li>
+            <li>Media Centre</li>
+            <li>Investor Relations</li>
+            <li>Jobs</li>
+            <li>Ways to Watch</li>
+            <li>Terms of Use</li>
+            <li>Privacy</li>
+            <li>Cookie Preferences</li>
+            <li>Corporate Information</li>
+            <li>Contact Us</li>
+            <li>Speed Test</li>
+            <li>Legal Notices</li>
+            <li>Only on Netflix</li>
+        </ul>
+    </div>     
+</body>
+</html>
